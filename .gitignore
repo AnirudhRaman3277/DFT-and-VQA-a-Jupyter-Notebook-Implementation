@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# GAMESS generated output
+GAMESS Output Files/
+Parsed Output Files/
+
+# Generated parsed data
+*.json
+
+# Python generated tables
+tabulate_molecules/__pycache__/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
