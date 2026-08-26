@@ -1,10 +1,7 @@
 import re
 import json
 from pathlib import Path
-
-
-OUTPUT_DIR = Path(r"D:\Quantum Computing\CDAC Internship 2026\Python GAMESS DFT Jupyter\GAMESS Output Files")
-PARSED_OUTPUT_DIR = Path(r"D:\Quantum Computing\CDAC Internship 2026\Python GAMESS DFT Jupyter\Parsed Output Files")
+from config import OUTPUT_DIR, PARSED_OUTPUT_DIR
 
 def parse_gamess(job_name):
 
