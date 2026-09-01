@@ -84,8 +84,8 @@ def parse_gamess(job_name):
         ndfunc = int(basis_match.group(2))
         npfunc = int(basis_match.group(5))
 
-        basis = f"6-{ngauss}1G"
-
+        basis = "6-31G"
+        
         if ndfunc:
             basis += "(d"
 
